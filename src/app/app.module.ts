@@ -49,7 +49,7 @@ export function MSALInstanceFactory(): IPublicClientApplication {
     auth: {
       clientId: '2dbb6aae-fb85-419d-a334-5a65c8ac4838',
       authority: 'https://login.microsoftonline.com/cc2f2118-790f-4e3b-b7ed-31e9c37987c4',
-      redirectUri: 'http://localhost:4200/',
+      redirectUri: 'https://jolly-river-0114a4500.6.azurestaticapps.net/',
     },
     cache: {
       cacheLocation: BrowserCacheLocation.LocalStorage,
